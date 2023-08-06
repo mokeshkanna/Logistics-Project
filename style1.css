@@ -1,0 +1,401 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+  img{
+    max-width: 100%;
+  }
+  .top{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    padding: 0px 150px; 
+  }
+  .top1, .top2{
+    display: flex;
+  }
+  .main2{
+    padding: 10px;
+  }
+  .container{
+    display: flex;
+    background-color: red;
+    justify-content: space-between;
+    padding: 10px 150px;
+    position: sticky;
+    top: 0;
+  }
+  .list{
+    margin-top: 17px;
+  }
+  .li{
+    display: inline-block;
+    padding: 15px;
+  } 
+  .row{
+    background:url('image/image101.jpg');
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 150px;
+    background-size: cover;
+  }
+  .card{
+    width: 25%;
+    background-color: aqua;
+    border: 1px solid #ccc;
+  }
+  .card-header{
+    text-align: center;
+    padding: 10px;
+    background-color: whitesmoke;
+    color: black;
+  }
+  .card-body{
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+    color: black;
+  }
+  .card-footer{
+    text-align: center;
+    padding: 10px;
+    background-color: lightgreen;
+    color: white;
+  }
+  .box{
+    display: flex;
+    justify-content: center;
+    padding: 40px 150px;
+  }
+  .left-side,.right-side{
+    width: 50%;
+  }
+  .left-side h2, .right-side h2{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 30px;
+  }
+  .photo1{
+    width: 83%;
+    border: 1px solid white;
+    background: url('image/image101.jpg');
+  }
+  .sub{
+    border: 1px solid rgba(0,0,0,0.5);
+    margin: 319px 0 0 0;
+    text-align: center;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    padding: 10px;
+  }
+  .sub h3{
+    text-transform: uppercase;
+    font-size: 25px;
+  }
+  .sub p{
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 20px;
+  }
+  span{
+    border: 1px solid rgb(216, 41, 18);
+    color: rgb(223, 28, 22);
+    text-transform: uppercase;
+    padding: 10px;
+    font-size: 12px;
+    padding-bottom: 10px;
+  }
+  span:hover{
+    background-color: brown;
+    color: white;
+  }
+  .section{
+    display:flex;
+  }
+  .sec1{
+    width: 30%;
+    margin-right: 7px;
+    background-image: url('image/image101.jpg');
+    background-position: center;
+    background-size: cover;
+  }
+  .sec2{
+    width: 70%;
+  }
+  .sec2 h3{
+    text-transform: uppercase;
+  }
+  .sec2 h5{
+    text-transform: capitalize;
+  }
+  .sec2 p{
+    padding: 10px;
+    font-size: 16px;
+  }
+  .word{
+    padding-top: 70px;
+    background-color: #d3d3d3;
+  }
+  .word h2{
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .word p{
+    text-align: center;
+    font-size: 19px;
+  }
+  .box1{
+    display: flex;
+    padding: 50px 150px 40px 150px;
+    background-color: #d3d3d3;
+  }
+  .part1{
+    width: 45%;
+    display: flex;
+    margin-right: 5%;
+    border: 1px solid chocolate;
+  }
+  .part2{
+    width: 45%;
+    display: flex;
+    margin-left: 5%;
+    border: 1px solid chocolate;
+  }
+  .d1{
+    width: 50%;
+    background-image: url('image/image101.jpg');
+    background-position: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .d2{
+    width: 50%;
+    padding: 17px;
+    background-color: chocolate;
+    color: white;
+  }
+  .d2 h3{
+    padding: 9px;
+    line-height: 16px;
+    font-size: 15px;
+  }
+  button{
+    background-color: chocolate;
+    border: 1px solid white;
+    padding: 8px;
+    color: white;
+  }
+  .bottom{
+    display: flex;
+    background-color: rgba(20, 20, 20, 0.897);
+    padding: 40px 150px 20px 150px;
+    }
+    .bottom1{
+      width: 46%;
+      margin-right: 2%;
+    }
+    .bottom2{
+      width: 25%;
+      margin-right: 2%;
+    }
+    .bottom3{
+      width: 25%;
+    }
+    .g1 h3{
+      background-color: black;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+    .bottom h4{
+      padding: 10px;
+      color: rgb(119, 128, 128);
+    }
+    #latter{
+      padding: 20px 0px;
+      font-size: 18px;
+      color: rgb(119, 128, 128);
+    }
+    .bottom1 p{
+      padding: 7px;
+      color: rgb(119, 128, 128);
+    }
+    .bottom2 p{
+      padding: 20px 0 0;
+      color: rgb(50, 207, 50);
+    }
+    .bottom3 input{
+      margin-top: 20px;
+      width: 100%;
+      padding: 5px;
+      background-color: black;
+    }
+    input:focus{
+      background-color: rgb(29, 133, 26);
+      color: white;
+    }
+    .bottom3 botton{
+      background-color: rgb(113, 172, 55);
+      margin-top: 20px;
+      padding: 10px;
+    }
+    .icon{
+      background-color: black;
+      margin-top: 35px;
+      color: white;
+      padding: 10px;
+      word-spacing: 10px;
+    }
+    @media (max-width:1064px){
+      .li{
+        padding: 10px;
+      }
+    }
+    @media (max-width:1017px){
+      .top{
+        padding: 0 50px;
+      }
+      .container{
+        padding: 10px 50px;
+      }
+    }
+    @media (max-width:824px){
+      .top{
+        padding: 0 20px;
+      }
+      .container{
+        padding: 10px 20px;
+      }
+      .row{
+        flex-direction: column;
+        padding: 20px;
+        background-image: none;
+      }
+      .card{
+        width: 100%;
+        margin-bottom: 20px;
+      }
+      .card-header{
+        font-size: 20px;
+      }
+      .card-body{
+        font-size: 18px;
+        padding: 25px;
+      }
+      .card-footer{
+        font-size: 19px;
+      }
+      .box{
+        flex-direction: column;
+        padding: 20px;
+      }
+      .left-side,.right-side{
+        width: 100%;
+      }
+      .photo1{
+        width: 100%;
+        background-repeat:no-repeat;
+        background-size: cover;
+      }
+      .box1{
+        padding: 40px 20px;
+      }
+      .bottom{
+        padding: 30px 20px;
+      }
+      .icon{
+        word-spacing: 6px;
+      }
+
+    }
+    @media(max-width:752px){
+      .li{
+        padding: 7px;
+      }
+    }
+    @media (max-width:725px){
+      .logo{
+        width: 30%;
+      }
+      .list{
+        width: 70%;
+      }
+    } 
+    @media (max-width:659px){
+      .top{
+        font-size: 13px;
+      }
+      .li{
+        font-size: 14px;
+      }
+      .box1{
+        flex-direction: column;
+      }
+      .part1, .part2{
+        width: 100%;
+        margin: 0;
+        margin-bottom: 20px;
+      }
+      .bottom{
+        flex-direction: column;
+      }
+      .bottom1, .bottom2, .bottom3{
+        width: 100%;
+      }
+    }
+    @media (max-width:597px){
+      .top{
+        padding: 0;
+        font-size: 12px;
+      }
+      .logo{
+        width: 20%;
+      }
+      .list{
+        width: 80%;
+        margin-top: 5px;
+      }
+      .li{
+        font-size: 12px;
+      }
+    }
+    @media (max-width:500px) {
+      .main2{
+        padding: 5px;
+      }
+    }
+    @media (max-width:473px) {
+      .li{
+      padding: 5px;
+      font-size: 10px;
+      }
+      .top{
+        font-size: 10px;
+      }
+    }
+    @media (max-width:399px) {
+      .li{
+        padding: 2px;
+      }
+      .list{
+        margin-left: 5px;
+        margin-top: 0;
+      }
+    }
+
+  
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
